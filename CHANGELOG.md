@@ -13,3 +13,4 @@
 - fix incorrect lang entries for ore veins
 - add Native Iridium Ore, Textures and Vein
 - Apply spotless
+- Add textures and lang for Firmalife mallets + add optional dependencies

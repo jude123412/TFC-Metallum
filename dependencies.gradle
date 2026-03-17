@@ -39,4 +39,18 @@
  */
 dependencies {
     implementation rfg.deobf("curse.maven:terrafirmacraft-1.7.23.181-302973:3645502") // TFC 1.7.23.181
+
+    // needed for the dev environment
+    compileOnly rfg.deobf("curse.maven:tfc-tech-unofficial-1.2.16-340660:3209033") // TFC Tech Unofficial 1.2.16
+    compileOnly rfg.deobf("curse.maven:tfc-rocks-plus-1.3.6-376298:3260513") // TFC Rocks+ 1.3.6
+    compileOnly rfg.deobf("curse.maven:firmalife-0.5.1-453394:3612887") // TFC Firmalife 0.5.1
+    compileOnly rfg.deobf("curse.maven:jeids-1.0.4-snapshot-thin-296289:3581715") // Just Enough Ids 1.0.4-Snapshot-Thin
+    compileOnly rfg.deobf("curse.maven:mixin-bootstrap-1.1.0-357178:3437402") // Mixin Bootstrap 1.1.0
+
+    // For testing other TFC addons
+    runtimeOnlyNonPublishable rfg.deobf("curse.maven:tfc-tech-unofficial-1.2.16-340660:3209033") // TFC Tech Unofficial 1.2.16
+    runtimeOnlyNonPublishable rfg.deobf("curse.maven:tfc-rocks-plus-1.3.6-376298:3260513") // TFC Rocks+ 1.3.6
+    runtimeOnlyNonPublishable rfg.deobf("curse.maven:firmalife-0.5.1-453394:3612887") // TFC Firmalife 0.5.1
+    runtimeOnlyNonPublishable rfg.deobf("curse.maven:jeids-1.0.4-snapshot-thin-296289:3581715") // Just Enough Ids 1.0.4-Snapshot-Thin
+    runtimeOnlyNonPublishable rfg.deobf("curse.maven:mixin-bootstrap-1.1.0-357178:3437402") // Mixin Bootstrap 1.1.0
 }
