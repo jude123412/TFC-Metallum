@@ -1,6 +1,6 @@
 # Changelog
 
-## 16-032026 – Modified by Jude
+## 16-03-2026 – Modified by xXjudeXx
 - Update Buildscript to GregTech CEu's
 - Add Thermal Expansion Metals
 - Fix generateResources.py
@@ -9,3 +9,4 @@
 - add CHANGELOG file
 - add lang entires for Lumium, Signalum & Enderium
 - add missing json's for Lumium, Signalum & Enderium
+- add Lumium Textures
