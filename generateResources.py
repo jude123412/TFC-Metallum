@@ -32,7 +32,8 @@ if not os.path.isdir('assets_backups'):
 
 zipfolder('assets_backups/{}.zip'.format(int(time.time())), 'src/main/resources/assets/tfc')
 
-os.chdir('src/main/resources/assets/tfc/')
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+os.chdir(os.path.join(SCRIPT_DIR, 'src/main/resources/assets/tfc'))
 
 ROCK_TYPES = [
     'granite',

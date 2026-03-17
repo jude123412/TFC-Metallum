@@ -1,0 +1,24 @@
+{
+	"conditions": [
+	{
+		"type": "tfcmetallum:config",
+		"config": "invar"
+	}
+	],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " X ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "type": "forge:ore_dict",
+      "ore": "ingotDoubleSignalum"
+    }
+  },
+  "result": {
+    "item": "tfc:metal/anvil/signalum",
+    "count": 1
+  }
+}

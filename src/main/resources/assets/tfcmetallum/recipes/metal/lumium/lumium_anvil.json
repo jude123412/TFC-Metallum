@@ -1,0 +1,24 @@
+{
+	"conditions": [
+	{
+		"type": "tfcmetallum:config",
+		"config": "lumium"
+	}
+	],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " X ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "type": "forge:ore_dict",
+      "ore": "ingotDoubleLumium"
+    }
+  },
+  "result": {
+    "item": "tfc:metal/anvil/lumium",
+    "count": 1
+  }
+}

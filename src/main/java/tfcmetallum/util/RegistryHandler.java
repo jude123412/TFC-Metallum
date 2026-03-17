@@ -255,7 +255,7 @@ public final class RegistryHandler {
         }
 
         if (ConfigTFCM.METALS.iridium) {
-            r.register(new Metal(IRIDIUM, Metal.Tier.TIER_V, true, 0.1f, ConfigTFCM.MELT_TEMP.iridium, 0xFADAFCF, ToolMaterialsTFCM.IRIDIUM, ArmorMaterialsTFCM.IRIDIUM));
+            r.register(new Metal(IRIDIUM, Metal.Tier.TIER_V, true, 0.1f, ConfigTFCM.MELT_TEMP.iridium, 0xFFADAFCF, ToolMaterialsTFCM.IRIDIUM, ArmorMaterialsTFCM.IRIDIUM));
         }
         if (ConfigTFCM.METALS.lumium) {
             r.register(new Metal(LUMIUM, Metal.Tier.TIER_IV, true, 0.1f, ConfigTFCM.MELT_TEMP.lumium, 0xFFDBDC78, ToolMaterialsTFCM.LUMIUM, ArmorMaterialsTFCM.LUMIUM));

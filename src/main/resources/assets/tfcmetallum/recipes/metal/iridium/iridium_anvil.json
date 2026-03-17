@@ -1,0 +1,24 @@
+{
+	"conditions": [
+	{
+		"type": "tfcmetallum:config",
+		"config": "iridium"
+	}
+	],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " X ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "type": "forge:ore_dict",
+      "ore": "ingotDoubleIridium"
+    }
+  },
+  "result": {
+    "item": "tfc:metal/anvil/iridium",
+    "count": 1
+  }
+}

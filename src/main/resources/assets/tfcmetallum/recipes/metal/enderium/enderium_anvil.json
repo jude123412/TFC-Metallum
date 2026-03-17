@@ -1,0 +1,24 @@
+{
+	"conditions": [
+	{
+		"type": "tfcmetallum:config",
+		"config": "enderium"
+	}
+	],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " X ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "type": "forge:ore_dict",
+      "ore": "ingotDoubleEnderium"
+    }
+  },
+  "result": {
+    "item": "tfc:metal/anvil/enderium",
+    "count": 1
+  }
+}
