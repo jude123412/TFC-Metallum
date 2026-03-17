@@ -8,3 +8,4 @@
 - add Iridium Texutres + Lang entries
 - add CHANGELOG file
 - add lang entires for Lumium, Signalum & Enderium
+- add missing json's for Lumium, Signalum & Enderium
