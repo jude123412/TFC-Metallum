@@ -10,3 +10,4 @@
 - add lang entires for Lumium, Signalum & Enderium
 - add missing json's for Lumium, Signalum & Enderium
 - add Lumium Textures
+- fix incorrect lang entries for ore veins
