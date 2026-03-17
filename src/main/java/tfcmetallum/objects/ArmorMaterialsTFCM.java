@@ -22,4 +22,8 @@ public final class ArmorMaterialsTFCM {
     public static final IArmorMaterialTFC BORON = new ArmorMaterialTFC(EnumHelper.addArmorMaterial("tfcm_boron", TerraFirmaCraft.MOD_ID + ":boron", 120, new int[] {2, 3, 7, 1}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0F), 13, 10, 7.5f);
     public static final IArmorMaterialTFC ZIRCALOY = new ArmorMaterialTFC(EnumHelper.addArmorMaterial("tfcm_zircaloy", TerraFirmaCraft.MOD_ID + ":zircaloy", 120, new int[] {2, 8, 8, 3}, 17, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 8.0F), 50, 25, 25);
     public static final IArmorMaterialTFC BERYLLIUM_COPPER = new ArmorMaterialTFC(EnumHelper.addArmorMaterial("tfcm_beryllium_copper", TerraFirmaCraft.MOD_ID + ":beryllium_copper", 120, new int[] {3, 6, 8, 3}, 30, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 8.0F), 20, 70, 20);
+    public static final IArmorMaterialTFC IRIDIUM = new ArmorMaterialTFC(EnumHelper.addArmorMaterial("tfcm_iridium", TerraFirmaCraft.MOD_ID + ":iridium", 10, new int[] {2, 3, 4, 2}, 29, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0F), 15, 19, 13);
+    public static final IArmorMaterialTFC LUMIUM = new ArmorMaterialTFC(EnumHelper.addArmorMaterial("tfcm_lumium", TerraFirmaCraft.MOD_ID + ":lumium", 20, new int[] {4, 6, 8, 4}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 2.0F), 66, 62, 69);
+    public static final IArmorMaterialTFC SIGNALUM = new ArmorMaterialTFC(EnumHelper.addArmorMaterial("tfcm_signalum", TerraFirmaCraft.MOD_ID + ":signalum", 40, new int[] {3, 4, 6, 3}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0F), 35, 36, 34);
+    public static final IArmorMaterialTFC ENDERIUM = new ArmorMaterialTFC(EnumHelper.addArmorMaterial("tfcm_enderium", TerraFirmaCraft.MOD_ID + ":enderium", 80, new int[] {4, 7, 8, 4}, 29, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 4.0F), 65, 70, 69);
 }

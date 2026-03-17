@@ -85,6 +85,10 @@ public final class RegistryHandler {
     public static final ResourceLocation MAGNESIUM_DIBORIDE = new ResourceLocation(MOD_ID, "magnesium_diboride"); // magnesium + steel
     public static final ResourceLocation TOUGH_ALLOY = new ResourceLocation(MOD_ID, "tough_alloy"); // Ferroboron + lithium
     public static final ResourceLocation URANIUM = new ResourceLocation(MOD_ID, "uranium");
+    public static final ResourceLocation IRIDIUM = new ResourceLocation(MOD_ID, "iridium");
+    public static final ResourceLocation LUMIUM = new ResourceLocation(MOD_ID, "lumium"); // Tin + Silver + Glowstone
+    public static final ResourceLocation SIGNALUM = new ResourceLocation(MOD_ID, "signalum"); // Copper + Silver + Redstone
+    public static final ResourceLocation ENDERIUM = new ResourceLocation(MOD_ID, "enderium"); // Lead + Platinum + Ender Pearl
 
     //Ores
     public static final ResourceLocation NATIVE_ARDITE = new ResourceLocation(MOD_ID, "native_ardite");
@@ -248,6 +252,19 @@ public final class RegistryHandler {
 
         } else if (ConfigTFCM.METALS.boron) {
         	r.register(new Metal(BORON, Metal.Tier.TIER_III, true, 0.3f, ConfigTFCM.MELT_TEMP.boron, 0xFF252525, ToolMaterialsTFCM.BORON, ArmorMaterialsTFCM.BORON));
+        }
+
+        if (ConfigTFCM.METALS.iridium) {
+            r.register(new Metal(IRIDIUM, Metal.Tier.TIER_V, true, 0.1f, ConfigTFCM.MELT_TEMP.iridium, 0xFADAFCF, ToolMaterialsTFCM.IRIDIUM, ArmorMaterialsTFCM.IRIDIUM));
+        }
+        if (ConfigTFCM.METALS.lumium) {
+            r.register(new Metal(LUMIUM, Metal.Tier.TIER_IV, true, 0.1f, ConfigTFCM.MELT_TEMP.lumium, 0xFFDBDC78, ToolMaterialsTFCM.LUMIUM, ArmorMaterialsTFCM.LUMIUM));
+        }
+        if (ConfigTFCM.METALS.signalum) {
+            r.register(new Metal(SIGNALUM, Metal.Tier.TIER_IV, true, 0.1f, ConfigTFCM.MELT_TEMP.signalum, 0xFFF14B00, ToolMaterialsTFCM.SIGNALUM, ArmorMaterialsTFCM.SIGNALUM));
+        }
+        if (ConfigTFCM.METALS.enderium) {
+            r.register(new Metal(ENDERIUM, Metal.Tier.TIER_V, true, 0.1f, ConfigTFCM.MELT_TEMP.signalum, 0xFF0A4849, ToolMaterialsTFCM.ENDERIUM, ArmorMaterialsTFCM.ENDERIUM));
         }
     }
 

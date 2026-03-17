@@ -18,4 +18,8 @@ public class ToolMaterialsTFCM {
     public static final Item.ToolMaterial BORON = EnumHelper.addToolMaterial("tfcm_boron", 2, 1500, 10, 4.2f, 14);
     public static final Item.ToolMaterial ZIRCALOY = EnumHelper.addToolMaterial("tfcm_zircaloy", 5, 6500, 8, 7.9f, 26);
     public static final Item.ToolMaterial BERYLLIUM_COPPER = EnumHelper.addToolMaterial("tfcm_beryllium_copper", 4, 9000, 8, 7.9f, 26);
+    public static final Item.ToolMaterial IRIDIUM = EnumHelper.addToolMaterial("tfcm_iridium", 3, 1000, 9, 12.0f, 29);
+    public static final Item.ToolMaterial LUMIUM = EnumHelper.addToolMaterial("tfcm_lumium", 2, 3000, 10, 12.0f, 16);
+    public static final Item.ToolMaterial SIGNALUM = EnumHelper.addToolMaterial("tfcm_signalum", 4, 1500, 6, 7.0f, 16);
+    public static final Item.ToolMaterial ENDERIUM = EnumHelper.addToolMaterial("tfcm_enderium", 5, 6800, 16, 12.0f, 28);
 }

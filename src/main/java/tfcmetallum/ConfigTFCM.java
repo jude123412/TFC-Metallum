@@ -309,6 +309,30 @@ public class ConfigTFCM {
     	@Config.Comment({"Melting temp for tough"})
         @Config.LangKey("config." + MODID + ".melt_temp.tough")
         public float tough = 3000;
+
+        @RangeInt(min = 0)
+        @Config.RequiresMcRestart
+        @Config.Comment({"Melting temp for iridium"})
+        @Config.LangKey("config." + MODID + ".melt_temp.iridium")
+        public float iridium = 2719;
+
+        @RangeInt(min = 0)
+        @Config.RequiresMcRestart
+        @Config.Comment({"Melting temp for lumium"})
+        @Config.LangKey("config." + MODID + ".melt_temp.lumium")
+        public float lumium = 780;
+
+        @RangeInt(min = 0)
+        @Config.RequiresMcRestart
+        @Config.Comment({"Melting temp for signalum"})
+        @Config.LangKey("config." + MODID + ".melt_temp.signalum")
+        public float signalum = 1254;
+
+        @RangeInt(min = 0)
+        @Config.RequiresMcRestart
+        @Config.Comment({"Melting temp for enderium"})
+        @Config.LangKey("config." + MODID + ".melt_temp.enderium")
+        public float enderium = 2487;
     }
     
     public static class Metals {
@@ -462,6 +486,26 @@ public class ConfigTFCM {
         @Config.LangKey("config." + MODID + ".metals.tough")
         @Config.RequiresMcRestart
         public boolean tough_alloy = true;
+
+        @Config.Comment({"Enable Iridium?"})
+        @Config.LangKey("config." + MODID + ".metals.iridium")
+        @Config.RequiresMcRestart
+        public boolean iridium = true;
+
+        @Config.Comment({"Enable lumium?"})
+        @Config.LangKey("config." + MODID + ".metals.lumium")
+        @Config.RequiresMcRestart
+        public boolean lumium = true;
+
+        @Config.Comment({"Enable signalum?"})
+        @Config.LangKey("config." + MODID + ".metals.signalum")
+        @Config.RequiresMcRestart
+        public boolean signalum = true;
+
+        @Config.Comment({"Enable enderium?"})
+        @Config.LangKey("config." + MODID + ".metals.enderium")
+        @Config.RequiresMcRestart
+        public boolean enderium = true;
     }
     
     public static class NonMetals {

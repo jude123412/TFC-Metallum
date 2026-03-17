@@ -116,7 +116,11 @@ METAL_TYPES = {
     'ferroboron': False,
     'tough': False,
     'magnesium_diboride': False,
-    'uranium': False
+    'uranium': False,
+    'iridium': True,
+    'lumium': True,
+    'signalum': True,
+    'enderium': True,
 
 }  # + uranium, lead, platinum if base TFC removes it
 
