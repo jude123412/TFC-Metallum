@@ -6,4 +6,5 @@
 - Fix generateResources.py
 - add jsons to Metal Items
 - add Iridium Texutres + Lang entries
-
+- add CHANGELOG file
+- add lang entires for Lumium, Signalum & Enderium
