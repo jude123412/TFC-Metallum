@@ -124,6 +124,12 @@ public class VeinDataManager {
 		} else {
 			oresOffList.add("zircon");
 		}
+
+        if (ConfigTFCM.METALS.iridium) {
+            oresOnList.add("native_iridium");
+        } else {
+            oresOffList.add("native_iridium");
+        }
 		
 		VeinDataManager.onList = oresOnList;
 		VeinDataManager.offList = oresOffList;

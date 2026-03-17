@@ -418,6 +418,29 @@ tile.tfc.ore.arsenic.schist.name=Arsenic Schist
 tile.tfc.ore.arsenic.gneiss.name=Arsenic Gneiss
 tile.tfc.ore.arsenic.marble.name=Arsenic Marble
 
+# Native Iridum
+tile.tfc.ore.native_iridium.granite.name=Native Iridium Granite
+tile.tfc.ore.native_iridium.diorite.name=Native Iridium Diorite
+tile.tfc.ore.native_iridium.gabbro.name=Native Iridium Gabbro
+tile.tfc.ore.native_iridium.shale.name=Native Iridium Shale
+tile.tfc.ore.native_iridium.claystone.name=Native Iridium Claystone
+tile.tfc.ore.native_iridium.rocksalt.name=Native Iridium Rocksalt
+tile.tfc.ore.native_iridium.limestone.name=Native Iridium Limestone
+tile.tfc.ore.native_iridium.conglomerate.name=Native Iridium Conglomerate
+tile.tfc.ore.native_iridium.dolomite.name=Native Iridium Dolomite
+tile.tfc.ore.native_iridium.chert.name=Native Iridium Chert
+tile.tfc.ore.native_iridium.chalk.name=Native Iridium Chalk
+tile.tfc.ore.native_iridium.rhyolite.name=Native Iridium Rhyolite
+tile.tfc.ore.native_iridium.basalt.name=Native Iridium Basalt
+tile.tfc.ore.native_iridium.andesite.name=Native Iridium Andesite
+tile.tfc.ore.native_iridium.dacite.name=Native Iridium Dacite
+tile.tfc.ore.native_iridium.quartzite.name=Native Iridium Quartzite
+tile.tfc.ore.native_iridium.slate.name=Native Iridium Slate
+tile.tfc.ore.native_iridium.phyllite.name=Native Iridium Phyllite
+tile.tfc.ore.native_iridium.schist.name=Native Iridium Schist
+tile.tfc.ore.native_iridium.gneiss.name=Native Iridium Gneiss
+tile.tfc.ore.native_iridium.marble.name=Native Iridium Marble
+
 # Ore Items
 item.tfc.ore.native_ardite.name=Native Ardite
 item.tfc.ore.native_ardite.poor.name=Poor Native Ardite
@@ -472,6 +495,10 @@ item.tfc.ore.zircon.name=Zircon
 item.tfc.ore.zircon.poor.name=Poor Zircon
 item.tfc.ore.zircon.rich.name=Rich Zircon
 item.tfc.ore.small.zircon.name=Small Zircon
+item.tfc.ore.native_iridium.name=Native Iridium
+item.tfc.ore.native_iridium.poor.name=Poor Native Iridium
+item.tfc.ore.native_iridium.rich.name=Rich Native Iridium
+item.tfc.ore.small.native_iridium.name=Small Native Iridium
 item.tfc.ore.villiaumite.name=Villiaumite
 item.tfc.ore.rhodochrosite.name=Rhodochrosite
 item.tfc.ore.fluorite.name=Fluorite
@@ -3169,6 +3196,8 @@ vein.metallum_ores/carobbiite.name=Carobbiite
 vein.metallum_ores/arsenic.name=Arsenic
 vein.metallum_ores/pitchblende.name=Pitchblende
 vein.metallum_ores/sulfur.name=Sulfur
+vein.metallum_ores/native_iridium.name=Native Iridium
+vein.metallum_ores/surface_native_iridium.name=Surface Native Iridium
 
 # trapdoors
 tile.tfc.trapdoor.aluminium.name=Aluminium Trapdoor

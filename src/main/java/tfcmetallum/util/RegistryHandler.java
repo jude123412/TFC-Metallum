@@ -105,6 +105,7 @@ public final class RegistryHandler {
     public static final ResourceLocation MAGNESITE = new ResourceLocation(MOD_ID, "magnesite"); //magnesium
     public static final ResourceLocation BERYL = new ResourceLocation(MOD_ID, "beryl"); //beryllium
     public static final ResourceLocation ZIRCON = new ResourceLocation(MOD_ID, "zircon"); // zirconium
+    public static final ResourceLocation NATIVE_IRIDIUM = new ResourceLocation(MOD_ID, "native_iridium"); // zirconium
 
     //Ore without TFC-M metals
     public static final ResourceLocation CHROMITE = new ResourceLocation(MOD_ID, "chromite"); // chrome
@@ -255,7 +256,7 @@ public final class RegistryHandler {
         }
 
         if (ConfigTFCM.METALS.iridium) {
-            r.register(new Metal(IRIDIUM, Metal.Tier.TIER_V, true, 0.1f, ConfigTFCM.MELT_TEMP.iridium, 0xFFADAFCF, ToolMaterialsTFCM.IRIDIUM, ArmorMaterialsTFCM.IRIDIUM));
+            r.register(new Metal(IRIDIUM, Metal.Tier.TIER_III, true, 0.1f, ConfigTFCM.MELT_TEMP.iridium, 0xFFADAFCF, ToolMaterialsTFCM.IRIDIUM, ArmorMaterialsTFCM.IRIDIUM));
         }
         if (ConfigTFCM.METALS.lumium) {
             r.register(new Metal(LUMIUM, Metal.Tier.TIER_IV, true, 0.1f, ConfigTFCM.MELT_TEMP.lumium, 0xFFDBDC78, ToolMaterialsTFCM.LUMIUM, ArmorMaterialsTFCM.LUMIUM));
@@ -281,6 +282,10 @@ public final class RegistryHandler {
         		
         if (ConfigTFCM.METALS.lithium) {
         	r.register(new Ore(SPODUMENE, LITHIUM, true));
+        }
+
+        if (ConfigTFCM.METALS.iridium) {
+            r.register(new Ore(NATIVE_IRIDIUM, IRIDIUM, true));
         }
                 
         // Ores which we add tools, armor and textures inside TFC realm, but can't be melted directly by default (processing by other mods required)
