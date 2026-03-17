@@ -12,3 +12,4 @@
 - add Lumium Textures
 - fix incorrect lang entries for ore veins
 - add Native Iridium Ore, Textures and Vein
+- Apply spotless
