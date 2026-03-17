@@ -1,7 +1,7 @@
 [
   {
     "modid": "tfcmetallum",
-    "name": "TFC Metallum",
+    "name": "TFC: Metallum",
     "description": "Adds metals, ingots, ores to base TerraFirmaCraft",
     "version": "${version}",
     "mcversion": "${mcversion}",

@@ -314,7 +314,7 @@ public class ConfigTFCM {
         @Config.RequiresMcRestart
         @Config.Comment({"Melting temp for iridium"})
         @Config.LangKey("config." + MODID + ".melt_temp.iridium")
-        public float iridium = 2719;
+        public float iridium = 2446;
 
         @RangeInt(min = 0)
         @Config.RequiresMcRestart
