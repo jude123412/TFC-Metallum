@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "firmalife"
+    },
+    {
+      "type": "tfcmetallum:config",
+      "config": "lumium"
+    }
+  ],
+  "type": "tfc:shaped_skill",
+  "pattern": [
+    "X",
+    "S"
+  ],
+  "key": {
+    "X": {
+      "item": "firmalife:lumium_mallet_head"
+    },
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
+  "result": {
+    "item": "firmalife:lumium_mallet"
+  }
+}
