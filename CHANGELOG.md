@@ -19,3 +19,4 @@
 - fix incorrect lang order for ores
 - fix incorrect lang entry for Tough Alloy
 - add Signalum Metal Textures
+- add Enderium Metal Textures
