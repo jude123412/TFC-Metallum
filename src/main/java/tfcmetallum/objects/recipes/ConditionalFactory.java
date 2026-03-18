@@ -37,8 +37,8 @@ public class ConditionalFactory implements IConditionFactory {
             case "enderium" -> () -> ConfigTFCM.METALS.enderium;
             case "electrum_flux" -> () -> ConfigTFCM.METALS.fluxed_electrum;
             default ->
-                // Fail safe for log spam, should never be used
-                    () -> false;
+                // Fail-safe for log spam, should never be used
+                () -> false;
         };
     }
 }

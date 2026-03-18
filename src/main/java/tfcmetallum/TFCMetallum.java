@@ -42,7 +42,6 @@ public class TFCMetallum {
         VeinLoader.INSTANCE.preInit(event.getModConfigurationDirectory());
         CraftingHelper.register(
                 new ResourceLocation("tfcmetallum", "config_enabled"),
-                new ConditionalFactory()
-        );
+                new ConditionalFactory());
     }
 }

@@ -30,3 +30,4 @@
 - update version number to 1.4.4
 - add optional recipes for Firmalife's Mallets
 - fix incorrect name for Fluxed Electrum Mallet Head
+- apply spotless
