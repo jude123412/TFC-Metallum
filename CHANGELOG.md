@@ -1,6 +1,6 @@
 # Changelog
 
-## 16-03-2026 – Modified by xXjudeXx
+## 17-03-2026 – Modified by xXjudeXx
 - Update Buildscript to GregTech CEu's
 - Add Thermal Expansion Metals
 - Fix generateResources.py
@@ -14,3 +14,5 @@
 - add Native Iridium Ore, Textures and Vein
 - Apply spotless
 - Add textures and lang for Firmalife mallets + add optional dependencies
+## 18-03-2026 – Modified by xXjudeXx
+-add jsons and lang for Rocks+ Iridium Ores

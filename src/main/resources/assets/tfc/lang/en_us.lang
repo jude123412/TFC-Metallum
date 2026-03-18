@@ -440,6 +440,18 @@ tile.tfc.ore.native_iridium.phyllite.name=Native Iridium Phyllite
 tile.tfc.ore.native_iridium.schist.name=Native Iridium Schist
 tile.tfc.ore.native_iridium.gneiss.name=Native Iridium Gneiss
 tile.tfc.ore.native_iridium.marble.name=Native Iridium Marble
+tile.tfc.ore.native_iridium.blaimorite.name=Native Iridium Blaimorite
+tile.tfc.ore.native_iridium.boninite.name=Native Iridium Boninite
+tile.tfc.ore.native_iridium.carbonatite.name=Native Iridium Carbonatite
+tile.tfc.ore.native_iridium.foidolite.name=Native Iridium Foidolite
+tile.tfc.ore.native_iridium.arkose.name=Native Iridium Arkose
+tile.tfc.ore.native_iridium.jaspillite.name=Native Iridium Jaspillite
+tile.tfc.ore.native_iridium.travertine.name=Native Iridium Travertine
+tile.tfc.ore.native_iridium.wackestone.name=Native Iridium Wackestone
+tile.tfc.ore.native_iridium.blueschist.name=Native Iridium Blueschist
+tile.tfc.ore.native_iridium.greenschist.name=Native Iridium Greenschist
+tile.tfc.ore.native_iridium.cataclasite.name=Native Iridium Cataclasite
+tile.tfc.ore.native_iridium.mylonite.name=Native Iridium Mylonite
 
 # Ore Items
 item.tfc.ore.native_ardite.name=Native Ardite
