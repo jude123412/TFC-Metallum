@@ -11,6 +11,7 @@
       "UnlimatedStone9",
       "xXjudeXx"
     ],
-    "credits": "The TFC dev team for this awesome mod. The GregTech CEu team for this awesome buildscript"
+    "credits": "The TFC dev team for this awesome mod. The GregTech CEu team for this awesome buildscript",
+    "dependencies": ["tfc"]
   }
 ]
