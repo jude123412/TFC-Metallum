@@ -20,3 +20,4 @@
 - fix incorrect lang entry for Tough Alloy
 - add Signalum Metal Textures
 - add Enderium Metal Textures
+- add Fluxed Electrum Metal, Textures and Lang

@@ -336,6 +336,12 @@ public class ConfigTFCM {
         @Config.Comment({ "Melting temp for enderium" })
         @Config.LangKey("config." + MODID + ".melt_temp.enderium")
         public float enderium = 2487;
+
+        @RangeInt(min = 0)
+        @Config.RequiresMcRestart
+        @Config.Comment({ "Melting temp for fluxed electrum" })
+        @Config.LangKey("config." + MODID + ".melt_temp.fluxed_electrum")
+        public float fluxed_electrum = 3485;
     }
 
     public static class Metals {
@@ -509,6 +515,11 @@ public class ConfigTFCM {
         @Config.LangKey("config." + MODID + ".metals.enderium")
         @Config.RequiresMcRestart
         public boolean enderium = true;
+
+        @Config.Comment({ "Enable fluxed electrum?" })
+        @Config.LangKey("config." + MODID + ".metals.fluxed_electrum")
+        @Config.RequiresMcRestart
+        public boolean fluxed_electrum = true;
     }
 
     public static class NonMetals {

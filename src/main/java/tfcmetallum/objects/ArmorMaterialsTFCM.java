@@ -76,4 +76,8 @@ public final class ArmorMaterialsTFCM {
             EnumHelper.addArmorMaterial("tfcm_enderium", TerraFirmaCraft.MOD_ID + ":enderium", 80,
                     new int[] { 4, 7, 8, 4 }, 29, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 4.0F),
             65, 70, 69);
+    public static final IArmorMaterialTFC FLUXED_ELECTRUM = new ArmorMaterialTFC(
+            EnumHelper.addArmorMaterial("tfcm_fluxed_electrum", TerraFirmaCraft.MOD_ID + ":fluxed_electrum", 80,
+                    new int[] { 4, 7, 8, 4 }, 29, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 4.0F),
+            65, 70, 69);
 }

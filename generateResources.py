@@ -81,7 +81,8 @@ ORE_TYPES = {
     'rhodochrosite': False,
     'fluorite': False,
     'carobbiite': False,
-    'arsenic': False
+    'arsenic': False,
+    'native_iridium': True
 } #Pitchblende, Galena and native_platinum if base TFC removes it
 
 # True - Generate Tools
@@ -122,6 +123,7 @@ METAL_TYPES = {
     'lumium': True,
     'signalum': True,
     'enderium': True,
+    'fluxed_electrum': True
 
 }  # + uranium, lead, platinum if base TFC removes it
 

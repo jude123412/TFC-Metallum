@@ -28,4 +28,6 @@ public class ToolMaterialsTFCM {
     public static final Item.ToolMaterial SIGNALUM = EnumHelper.addToolMaterial("tfcm_signalum", 4, 1500, 6, 7.0f, 16);
     public static final Item.ToolMaterial ENDERIUM = EnumHelper.addToolMaterial("tfcm_enderium", 5, 6800, 16, 12.0f,
             28);
+    public static final Item.ToolMaterial FLUXED_ELECTRUM = EnumHelper.addToolMaterial("tfcm_fluxed_electrum", 5, 6800, 16, 12.0f,
+            28);
 }
