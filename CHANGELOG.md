@@ -18,3 +18,4 @@
 - add jsons and lang for Rocks+ Iridium Ores
 - fix incorrect lang order for ores
 - fix incorrect lang entry for Tough Alloy
+- add Signalum Metal Textures
