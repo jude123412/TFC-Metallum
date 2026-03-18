@@ -26,3 +26,4 @@
 - add icon + rename to TFC: Metallum Unofficial
 - add dependancies to mcmod.info
 - fix various recipes not generating
+- update version number to 1.4.4
