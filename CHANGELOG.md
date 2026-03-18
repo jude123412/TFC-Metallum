@@ -15,4 +15,5 @@
 - Apply spotless
 - Add textures and lang for Firmalife mallets + add optional dependencies
 ## 18-03-2026 – Modified by xXjudeXx
--add jsons and lang for Rocks+ Iridium Ores
+- add jsons and lang for Rocks+ Iridium Ores
+- fix incorrect lang order for ores
