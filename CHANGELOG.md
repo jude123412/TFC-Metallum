@@ -17,3 +17,4 @@
 ## 18-03-2026 – Modified by xXjudeXx
 - add jsons and lang for Rocks+ Iridium Ores
 - fix incorrect lang order for ores
+- fix incorrect lang entry for Tough Alloy
