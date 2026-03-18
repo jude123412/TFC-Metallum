@@ -17,59 +17,28 @@ public class ConditionalFactory implements IConditionFactory {
     public BooleanSupplier parse(JsonContext context, JsonObject json) {
         String type = JsonUtils.getString(json, "config");
 
-        if (type == "aluminium") {
-            return () -> ConfigTFCM.METALS.aluminium;
-        }
-
-        if (type.toString() == "beryllium_copper") {
-            return () -> IsObtainable.beryllim_copper;
-        }
-
-        if (type == "boron") {
-            return () -> ConfigTFCM.METALS.boron;
-        }
-
-        if (type == "cobalt") {
-            return () -> ConfigTFCM.METALS.cobalt;
-        }
-
-        if (type == "invar") {
-            return () -> ConfigTFCM.METALS.invar;
-        }
-
-        if (type == "manyullyn") {
-            return () -> IsObtainable.manyullyn;
-        }
-
-        if (type == "mithril") {
-            return () -> IsObtainable.mithril;
-        }
-
-        if (type == "nickel_silver") {
-            return () -> ConfigTFCM.METALS.nickel_silver;
-        }
-
-        if (type == "osmium") {
-            return () -> ConfigTFCM.METALS.osmium;
-        }
-
-        if (type == "titanium") {
-            return () -> ConfigTFCM.METALS.titanum;
-        }
-
-        if (type == "tungsten") {
-            return () -> ConfigTFCM.METALS.tungsten;
-        }
-
-        if (type == "tungsten_steel") {
-            return () -> IsObtainable.tungsten_steel;
-        }
-
-        if (type == "zircaloy") {
-            return () -> IsObtainable.zircaloy;
-        } else {
-            // Fail safe for log spam, should never be used
-            return () -> false;
-        }
+        return switch (type) {
+            case "aluminium" -> () -> ConfigTFCM.METALS.aluminium;
+            case "beryllium_copper" -> () -> IsObtainable.beryllim_copper;
+            case "boron" -> () -> ConfigTFCM.METALS.boron;
+            case "cobalt" -> () -> ConfigTFCM.METALS.cobalt;
+            case "invar" -> () -> ConfigTFCM.METALS.invar;
+            case "manyullyn" -> () -> IsObtainable.manyullyn;
+            case "mithril" -> () -> IsObtainable.mithril;
+            case "nickel_silver" -> () -> ConfigTFCM.METALS.nickel_silver;
+            case "osmium" -> () -> ConfigTFCM.METALS.osmium;
+            case "titanium" -> () -> ConfigTFCM.METALS.titanum;
+            case "tungsten" -> () -> ConfigTFCM.METALS.tungsten;
+            case "tungsten_steel" -> () -> IsObtainable.tungsten_steel;
+            case "zircaloy" -> () -> IsObtainable.zircaloy;
+            case "iridium" -> () -> ConfigTFCM.METALS.iridium;
+            case "lumium" -> () -> ConfigTFCM.METALS.lumium;
+            case "signalum" -> () -> ConfigTFCM.METALS.signalum;
+            case "enderium" -> () -> ConfigTFCM.METALS.enderium;
+            case "electrum_flux" -> () -> ConfigTFCM.METALS.fluxed_electrum;
+            default ->
+                // Fail safe for log spam, should never be used
+                    () -> false;
+        };
     }
 }

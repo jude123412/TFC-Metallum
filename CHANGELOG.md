@@ -25,3 +25,4 @@
 - fix incorrect Fluxed Electrum name
 - add icon + rename to TFC: Metallum Unofficial
 - add dependancies to mcmod.info
+- fix various recipes not generating

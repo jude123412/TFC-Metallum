@@ -1,5 +1,7 @@
 package tfcmetallum;
 
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.common.crafting.CraftingHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -8,6 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import tfcmetallum.objects.recipes.ConditionalFactory;
 import tfcmetallum.util.IsObtainable;
 import tfcmetallum.util.VeinLoader;
 
@@ -37,5 +40,9 @@ public class TFCMetallum {
     public void preInit(FMLPreInitializationEvent event) {
         IsObtainable.checkObtanability();
         VeinLoader.INSTANCE.preInit(event.getModConfigurationDirectory());
+        CraftingHelper.register(
+                new ResourceLocation("tfcmetallum", "config_enabled"),
+                new ConditionalFactory()
+        );
     }
 }

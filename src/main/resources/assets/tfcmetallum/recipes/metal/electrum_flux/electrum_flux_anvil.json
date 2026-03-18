@@ -14,7 +14,7 @@
   "key": {
     "X": {
       "type": "forge:ore_dict",
-      "ore": "ingotDoubleelectrum_flux"
+      "ore": "ingotDoubleElectrumFlux"
     }
   },
   "result": {
