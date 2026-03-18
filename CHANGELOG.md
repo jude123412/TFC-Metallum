@@ -1,6 +1,6 @@
 # Changelog
 
-## 17-03-2026 – Modified by xXjudeXx
+## 17-03-2026–1.0.0 Modified by xXjudeXx
 - Update Buildscript to GregTech CEu's
 - Add Thermal Expansion Metals
 - Fix generateResources.py
@@ -14,7 +14,7 @@
 - add Native Iridium Ore, Textures and Vein
 - Apply spotless
 - Add textures and lang for Firmalife mallets + add optional dependencies
-## 18-03-2026 – Modified by xXjudeXx
+## 18-03-2026-1.4.3 Modified by xXjudeXx
 - add jsons and lang for Rocks+ Iridium Ores
 - fix incorrect lang order for ores
 - fix incorrect lang entry for Tough Alloy
@@ -25,5 +25,8 @@
 - fix incorrect Fluxed Electrum name
 - add icon + rename to TFC: Metallum Unofficial
 - add dependancies to mcmod.info
+## 18-03-2026-1.4.4 Modified by xXjudeXx
 - fix various recipes not generating
 - update version number to 1.4.4
+- add optional recipes for Firmalife's Mallets
+- fix incorrect name for Fluxed Electrum Mallet Head
