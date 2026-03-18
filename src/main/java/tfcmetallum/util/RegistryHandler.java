@@ -103,8 +103,9 @@ public final class RegistryHandler {
                                                                                               // Redstone
     public static final ResourceLocation ENDERIUM = new ResourceLocation(MOD_ID, "enderium"); // Lead + Platinum + Ender
                                                                                               // Pearl
-    public static final ResourceLocation FLUXED_ELECTRUM = new ResourceLocation(MOD_ID, "fluxed_electrum"); // Electrum + Redstone
-
+    public static final ResourceLocation FLUXED_ELECTRUM = new ResourceLocation(MOD_ID, "fluxed_electrum"); // Electrum
+                                                                                                            // +
+                                                                                                            // Redstone
 
     // Ores
     public static final ResourceLocation NATIVE_ARDITE = new ResourceLocation(MOD_ID, "native_ardite");
@@ -339,7 +340,8 @@ public final class RegistryHandler {
         }
 
         if (ConfigTFCM.METALS.fluxed_electrum) {
-            r.register(new Metal(FLUXED_ELECTRUM, Metal.Tier.TIER_VI, true, 0.1f, ConfigTFCM.MELT_TEMP.fluxed_electrum, 0xFFC19724,
+            r.register(new Metal(FLUXED_ELECTRUM, Metal.Tier.TIER_VI, true, 0.1f, ConfigTFCM.MELT_TEMP.fluxed_electrum,
+                    0xFFC19724,
                     ToolMaterialsTFCM.FLUXED_ELECTRUM, ArmorMaterialsTFCM.FLUXED_ELECTRUM));
         }
     }

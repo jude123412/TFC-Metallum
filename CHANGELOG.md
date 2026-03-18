@@ -21,3 +21,4 @@
 - add Signalum Metal Textures
 - add Enderium Metal Textures
 - add Fluxed Electrum Metal, Textures and Lang
+- update version number + spotless
