@@ -22,3 +22,4 @@
 - add Enderium Metal Textures
 - add Fluxed Electrum Metal, Textures and Lang
 - update version number + spotless
+- fix incorrect Fluxed Electrum name

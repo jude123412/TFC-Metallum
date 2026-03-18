@@ -1,0 +1,24 @@
+{
+	"conditions": [
+	{
+		"type": "tfcmetallum:config",
+		"config": "electrum_flux"
+	}
+	],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " X ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "type": "forge:ore_dict",
+      "ore": "ingotDoubleelectrum_flux"
+    }
+  },
+  "result": {
+    "item": "tfc:metal/anvil/electrum_flux",
+    "count": 1
+  }
+}

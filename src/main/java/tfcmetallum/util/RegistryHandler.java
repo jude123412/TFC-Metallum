@@ -103,9 +103,9 @@ public final class RegistryHandler {
                                                                                               // Redstone
     public static final ResourceLocation ENDERIUM = new ResourceLocation(MOD_ID, "enderium"); // Lead + Platinum + Ender
                                                                                               // Pearl
-    public static final ResourceLocation FLUXED_ELECTRUM = new ResourceLocation(MOD_ID, "fluxed_electrum"); // Electrum
-                                                                                                            // +
-                                                                                                            // Redstone
+    public static final ResourceLocation FLUXED_ELECTRUM = new ResourceLocation(MOD_ID, "electrum_flux"); // Electrum
+                                                                                                          // +
+                                                                                                          // Redstone
 
     // Ores
     public static final ResourceLocation NATIVE_ARDITE = new ResourceLocation(MOD_ID, "native_ardite");

@@ -1,0 +1,25 @@
+{
+	"conditions": [
+	{
+		"type": "tfcmetallum:config",
+		"config": "electrum_flux"
+	}
+	],
+  "type": "tfc:shaped_skill",
+  "pattern": [
+    "X",
+    "S"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:metal/knife_blade/electrum_flux"
+    },
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
+  "result": {
+    "item": "tfc:metal/knife/electrum_flux"
+  }
+}

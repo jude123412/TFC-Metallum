@@ -1,0 +1,25 @@
+{
+	"conditions": [
+	{
+		"type": "tfcmetallum:config",
+		"config": "electrum_flux"
+	}
+	],
+  "type": "tfc:shaped_skill",
+  "pattern": [
+    "X",
+    "S"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:metal/chisel_head/electrum_flux"
+    },
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
+  "result": {
+    "item": "tfc:metal/chisel/electrum_flux"
+  }
+}
