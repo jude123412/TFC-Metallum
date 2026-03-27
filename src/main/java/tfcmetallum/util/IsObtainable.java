@@ -14,6 +14,10 @@ public class IsObtainable {
     public static boolean beryllim_copper;
     public static boolean ferroboron;
     public static boolean tough_alloy;
+    public static boolean red_alloy;
+    public static boolean lumium;
+    public static boolean signalum;
+    public static boolean enderium;
 
     public static void checkObtanability() {
         if (ConfigTFCM.METALS.ardite && ConfigTFCM.RECIPES.ardite && ConfigTFCM.METALS.cobalt &&
@@ -56,6 +60,22 @@ public class IsObtainable {
 
         if (IsObtainable.ferroboron && ConfigTFCM.METALS.lithium && ConfigTFCM.METALS.tough_alloy) {
             tough_alloy = true;
+        }
+
+        if (ConfigTFCM.METALS.redstone && ConfigTFCM.METALS.red_alloy) {
+            red_alloy = true;
+        }
+
+        if (ConfigTFCM.METALS.glowstone && ConfigTFCM.METALS.lumium) {
+            lumium = true;
+        }
+
+        if (ConfigTFCM.METALS.redstone && ConfigTFCM.METALS.signalum) {
+            signalum = true;
+        }
+
+        if (ConfigTFCM.METALS.ender && ConfigTFCM.METALS.enderium) {
+            enderium = true;
         }
     }
 }

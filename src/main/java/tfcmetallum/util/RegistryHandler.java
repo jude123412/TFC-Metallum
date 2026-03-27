@@ -4,7 +4,9 @@ import static net.dries007.tfc.TerraFirmaCraft.MOD_ID;
 import static net.dries007.tfc.api.types.Metal.ItemType.INGOT;
 import static net.dries007.tfc.types.DefaultMetals.COPPER;
 import static net.dries007.tfc.types.DefaultMetals.GOLD;
+import static net.dries007.tfc.types.DefaultMetals.LEAD;
 import static net.dries007.tfc.types.DefaultMetals.NICKEL;
+import static net.dries007.tfc.types.DefaultMetals.PLATINUM;
 import static net.dries007.tfc.types.DefaultMetals.SILVER;
 import static net.dries007.tfc.types.DefaultMetals.STEEL;
 import static net.dries007.tfc.types.DefaultMetals.TIN;
@@ -523,6 +525,25 @@ public final class RegistryHandler {
 
         if (IsObtainable.zircaloy) {
             r.register(new AlloyRecipe.Builder(ZIRCALOY).add(ZIRCONIUM, 0.72, 0.98).add(TIN, 0.2, 0.4).build());
+        }
+
+        if (IsObtainable.red_alloy) {
+            r.register(new AlloyRecipe.Builder(RED_ALLOY).add(TIN, 0.80, 0.90).add(REDSTONE, 0.10, 0.20).build());
+        }
+
+        if (IsObtainable.lumium) {
+            r.register(new AlloyRecipe.Builder(LUMIUM).add(TIN, 0.60, 0.80).add(SILVER, 0.10, 0.20)
+                    .add(GLOWSTONE, 0.10, 0.20).build());
+        }
+
+        if (IsObtainable.signalum) {
+            r.register(new AlloyRecipe.Builder(SIGNALUM).add(COPPER, 0.60, 0.80).add(SILVER, 0.10, 0.20)
+                    .add(REDSTONE, 0.10, 0.20).build());
+        }
+
+        if (IsObtainable.enderium) {
+            r.register(new AlloyRecipe.Builder(ENDERIUM).add(LEAD, 0.60, 0.80).add(PLATINUM, 0.10, 0.20)
+                    .add(ENDER, 0.10, 0.20).build());
         }
     }
 

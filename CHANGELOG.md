@@ -34,3 +34,4 @@
 ## 27-03-2026-1.4.5 Modified by xXjudeXx
 - update version number to 1.4.5
 - Add Redstone, Glowstone & Ender Metals
+- Add Alloy recipes for Red Alloy, Lumium, Signalum & Enderium
