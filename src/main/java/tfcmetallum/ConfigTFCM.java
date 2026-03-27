@@ -342,6 +342,24 @@ public class ConfigTFCM {
         @Config.Comment({ "Melting temp for fluxed electrum" })
         @Config.LangKey("config." + MODID + ".melt_temp.fluxed_electrum")
         public float fluxed_electrum = 3485;
+
+        @RangeInt(min = 0)
+        @Config.RequiresMcRestart
+        @Config.Comment({ "Melting temp for redstone" })
+        @Config.LangKey("config." + MODID + ".melt_temp.fluxed_electrum")
+        public float redstone = 1082;
+
+        @RangeInt(min = 0)
+        @Config.RequiresMcRestart
+        @Config.Comment({ "Melting temp for glowstone" })
+        @Config.LangKey("config." + MODID + ".melt_temp.fluxed_electrum")
+        public float glowstone = 782;
+
+        @RangeInt(min = 0)
+        @Config.RequiresMcRestart
+        @Config.Comment({ "Melting temp for ender" })
+        @Config.LangKey("config." + MODID + ".melt_temp.ender")
+        public float ender = 1338;
     }
 
     public static class Metals {
@@ -520,6 +538,21 @@ public class ConfigTFCM {
         @Config.LangKey("config." + MODID + ".metals.fluxed_electrum")
         @Config.RequiresMcRestart
         public boolean fluxed_electrum = true;
+
+        @Config.Comment({ "Enable redstone?" })
+        @Config.LangKey("config." + MODID + ".metals.redstone")
+        @Config.RequiresMcRestart
+        public boolean redstone = true;
+
+        @Config.Comment({ "Enable glowstone?" })
+        @Config.LangKey("config." + MODID + ".metals.fluxed_electrum")
+        @Config.RequiresMcRestart
+        public boolean glowstone = true;
+
+        @Config.Comment({ "Enable ender?" })
+        @Config.LangKey("config." + MODID + ".metals.ender")
+        @Config.RequiresMcRestart
+        public boolean ender = true;
     }
 
     public static class NonMetals {

@@ -106,6 +106,9 @@ public final class RegistryHandler {
     public static final ResourceLocation FLUXED_ELECTRUM = new ResourceLocation(MOD_ID, "electrum_flux"); // Electrum
                                                                                                           // +
                                                                                                           // Redstone
+    public static final ResourceLocation REDSTONE = new ResourceLocation(MOD_ID, "redstone");
+    public static final ResourceLocation GLOWSTONE = new ResourceLocation(MOD_ID, "glowstone");
+    public static final ResourceLocation ENDER = new ResourceLocation(MOD_ID, "ender");
 
     // Ores
     public static final ResourceLocation NATIVE_ARDITE = new ResourceLocation(MOD_ID, "native_ardite");
@@ -343,6 +346,24 @@ public final class RegistryHandler {
             r.register(new Metal(FLUXED_ELECTRUM, Metal.Tier.TIER_VI, true, 0.1f, ConfigTFCM.MELT_TEMP.fluxed_electrum,
                     0xFFC19724,
                     ToolMaterialsTFCM.FLUXED_ELECTRUM, ArmorMaterialsTFCM.FLUXED_ELECTRUM));
+        }
+
+        if (ConfigTFCM.METALS.redstone) {
+            r.register(new Metal(REDSTONE, Metal.Tier.TIER_VI, false, 0.3f, ConfigTFCM.MELT_TEMP.redstone,
+                    0xFF960000,
+                    null, null));
+        }
+
+        if (ConfigTFCM.METALS.glowstone) {
+            r.register(new Metal(GLOWSTONE, Metal.Tier.TIER_VI, false, 0.2f, ConfigTFCM.MELT_TEMP.glowstone,
+                    0xFFE8E800,
+                    null, null));
+        }
+
+        if (ConfigTFCM.METALS.ender) {
+            r.register(new Metal(ENDER, Metal.Tier.TIER_VI, false, 0.5f, ConfigTFCM.MELT_TEMP.ender,
+                    0xFF2EA08B,
+                    null, null));
         }
     }
 

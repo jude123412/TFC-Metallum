@@ -3244,6 +3244,21 @@ item.tfc.metal.helmet.electrum_flux.name=Fluxed Electrum Helmet
 item.tfc.ceramics.fired.mold.helmet.electrum_flux.name=Helmet Fluxed Electrum
 item.tfc.metal.shield.electrum_flux.name=Fluxed Electrum Shield
 
+## Metal Item
+fluid.redstone=Molten Redstone
+item.tfc.metal.ingot.redstone.name=Redstone Ingot
+item.tfc.ceramics.fired.mold.ingot.redstone.name=Unshaped Redstone
+
+## Metal Item
+fluid.glowstone=Molten Glowstone
+item.tfc.metal.ingot.glowstone.name=Glowstone Ingot
+item.tfc.ceramics.fired.mold.ingot.glowstone.name=Unshaped Glowstone
+
+## Metal Item
+fluid.ender=Molten Enderpearl
+item.tfc.metal.ingot.ender.name=Enderpearl Ingot
+item.tfc.ceramics.fired.mold.ingot.ender.name=Unshaped Enderpearl
+
 # Metal types
 tfc.types.metal.antimony=Antimony
 tfc.types.metal.constantan=Constantan
@@ -3280,6 +3295,9 @@ tfc.types.metal.lumium=Lumium
 tfc.types.metal.signalum=Signalum
 tfc.types.metal.enderium=Enderium
 tfc.types.metal.electrum_flux=Fluxed Electrum
+tfc.types.metal.redstone=Redstone
+tfc.types.metal.glowstone=Glowstone
+tfc.types.metal.ender=Enderpearl
 
 # Veins
 vein.metallum_ores/stibnite.name=Stibnite
