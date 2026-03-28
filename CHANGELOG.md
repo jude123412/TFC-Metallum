@@ -36,3 +36,5 @@
 - Add Redstone, Glowstone & Ender Metals
 - Add Alloy recipes for Red Alloy, Lumium, Signalum & Enderium
 - Improve look of Redstone, Glowstone & Ender Ingot Textures + Fluid jsons
+## 28-03-2026-1.4.6 Modified by xXjudeXx
+- update version number to 1.4.6
