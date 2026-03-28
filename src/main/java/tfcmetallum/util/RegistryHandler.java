@@ -351,19 +351,19 @@ public final class RegistryHandler {
         }
 
         if (ConfigTFCM.METALS.redstone) {
-            r.register(new Metal(REDSTONE, Metal.Tier.TIER_VI, false, 0.3f, ConfigTFCM.MELT_TEMP.redstone,
+            r.register(new Metal(REDSTONE, Metal.Tier.TIER_II, false, 0.3f, ConfigTFCM.MELT_TEMP.redstone,
                     0xFF960000,
                     null, null));
         }
 
         if (ConfigTFCM.METALS.glowstone) {
-            r.register(new Metal(GLOWSTONE, Metal.Tier.TIER_VI, false, 0.2f, ConfigTFCM.MELT_TEMP.glowstone,
+            r.register(new Metal(GLOWSTONE, Metal.Tier.TIER_II, false, 0.2f, ConfigTFCM.MELT_TEMP.glowstone,
                     0xFFE8E800,
                     null, null));
         }
 
         if (ConfigTFCM.METALS.ender) {
-            r.register(new Metal(ENDER, Metal.Tier.TIER_VI, false, 0.5f, ConfigTFCM.MELT_TEMP.ender,
+            r.register(new Metal(ENDER, Metal.Tier.TIER_III, false, 0.5f, ConfigTFCM.MELT_TEMP.ender,
                     0xFF2EA08B,
                     null, null));
         }
