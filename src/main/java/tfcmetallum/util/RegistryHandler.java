@@ -545,6 +545,10 @@ public final class RegistryHandler {
             r.register(new AlloyRecipe.Builder(ENDERIUM).add(LEAD, 0.60, 0.80).add(PLATINUM, 0.10, 0.20)
                     .add(ENDER, 0.10, 0.20).build());
         }
+
+        if (IsObtainable.electrum_flux) {
+            r.register(new AlloyRecipe.Builder(FLUXED_ELECTRUM).add(ELECTRUM, 0.68, 0.76).add(REDSTONE, 0.24, 0.32).build());
+        }
     }
 
     @SuppressWarnings("ConstantConditions")

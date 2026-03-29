@@ -41,3 +41,4 @@
 - fix incorrect Anvil Tiers for Redstone, Glowstone & Ender
 ## 29-03-2026-1.4.6 Modified by xXjudeXx
 - update version number to 1.4.7
+- add alloy recipe for Fluxed Electrum

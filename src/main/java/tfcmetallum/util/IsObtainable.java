@@ -18,6 +18,7 @@ public class IsObtainable {
     public static boolean lumium;
     public static boolean signalum;
     public static boolean enderium;
+    public static boolean electrum_flux;
 
     public static void checkObtanability() {
         if (ConfigTFCM.METALS.ardite && ConfigTFCM.RECIPES.ardite && ConfigTFCM.METALS.cobalt &&
@@ -76,6 +77,10 @@ public class IsObtainable {
 
         if (ConfigTFCM.METALS.ender && ConfigTFCM.METALS.enderium) {
             enderium = true;
+        }
+
+        if (ConfigTFCM.METALS.electrum && ConfigTFCM.METALS.redstone) {
+            electrum_flux = true;
         }
     }
 }
